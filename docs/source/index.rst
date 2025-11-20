@@ -1,6 +1,9 @@
 Strona Główna
 =============
 
-## Spis treści
+Spis treści
+--------
 
 .. toctree::
+
+  contact
