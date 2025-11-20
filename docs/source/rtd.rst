@@ -38,7 +38,7 @@ term2
     Definicja term2
 
 Tabela
-#####
+######
 
 ReST wiele opcji tworzenia tabel
 
@@ -115,7 +115,7 @@ Notatki Informacyjne
 Zdjęcie
 #######
 
-Use the ``figure`` directive to include images:
+Uzywamy `figure`` directive to include images:
 
 .. figure:: https://about.readthedocs.com/images/logo-opengraph.png
    :width: 90%
