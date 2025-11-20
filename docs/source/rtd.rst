@@ -102,3 +102,8 @@ Codes
     gmt basemap -R0/10/0/10 -JX10c/10c -Baf
     gmt end
 
+.. toctree::
+
+  index
+  rtd
+  contact
