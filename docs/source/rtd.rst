@@ -110,3 +110,14 @@ Notatki Informacyjne
 
 .. tip::
     Notatka informacyjna - typ tip
+
+
+Zdjęcie
+#######
+
+Use the ``figure`` directive to include images:
+
+.. figure:: https://about.readthedocs.com/images/logo-opengraph.png
+   :width: 90%
+
+   Figure caption
