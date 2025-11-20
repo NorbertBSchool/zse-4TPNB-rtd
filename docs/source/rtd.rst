@@ -13,41 +13,44 @@ Header 3
 Header 4
 ~~~~~~~~~
 
-Lists
-=====
+Header 5
+"""""""""
 
-**Bullet list:**
+Listy
+######
+
+**Lista myślników:**
 
 - Point A
 - Point B
 - Point C
 - Point D
 
-**Numbered list**:
+**Lista numberowana**:
 
 #. Point 1
 #. Point 2
 #. Point 3
 #. Point 4
 
-**Definition list**:
+**Lista definicji**:
 
 term1
-    Definition of term1
+    Definicja term1
 term2
-    Definition of term2
+    Definicja term2
 
-Table
-=====
+Tabela
+#####
 
-ReST supports multiple ways to make a table.
+ReST wiele opcji tworzenia tabel
 
 
-Simple Table
+Prosta Tabla
 ------------
 
 =====  =====  =======
-A      B      A and B
+A      B      A i B
 =====  =====  =======
 False  False  False
 True   False  False
@@ -55,7 +58,7 @@ False  True   False
 True   True   True
 =====  =====  =======
 
-Grid Table
+Grid Tabela
 ----------
 
 .. _tbl-grid:
@@ -69,17 +72,17 @@ Grid Table
 | body row 2           | ...        | ...      |          |
 +----------------------+------------+----------+----------+
 
-Links
-=====
+Linki
+######
 
-External links
+Zewnętrzne Linki
 --------------
 
 https://www.generic-mapping-tools.org
 
 `GMT Forum <https://forum.generic-mapping-tools.org/>`_
 
-Internal links
+Wewnętrzne Linki
 --------------
 
 Link to the a module with :doc:`/plot` or :doc:`/plot`.
@@ -93,17 +96,11 @@ Link to a GMT parameter :term:`FONT_TITLE`.
 
 
 
-Codes
-=====
+Kody
+#####
 
 ::
 
     gmt begin map
     gmt basemap -R0/10/0/10 -JX10c/10c -Baf
     gmt end
-
-.. toctree::
-
-  index
-  rtd
-  contact
