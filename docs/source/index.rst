@@ -1,4 +1,6 @@
-## Spis treści
+Spis treści
+-----------
+
 .. toctree::
    :maxdepth: 2
 
