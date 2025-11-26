@@ -98,6 +98,9 @@ Kody
     gmt basemap -R0/10/0/10 -JX10c/10c -Baf
     gmt end
 
+
+``echo "Hello, World!"``
+
 Notatki Informacyjne
 ######################
 
