@@ -92,7 +92,7 @@ Link do parametru GMT :term:`FONT_TITLE`.
 Kody
 #####
 
-:: code-block:: bash
+.. code-block:: bash
 
     gmt begin map
     gmt basemap -R0/10/0/10 -JX10c/10c -Baf
