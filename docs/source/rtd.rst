@@ -23,7 +23,7 @@ Listy
 - Point C
 - Point D
 
-**Lista numberowana**:
+**Lista numerowana**:
 
 #. Point 1
 #. Point 2
@@ -42,7 +42,6 @@ Tabela
 
 ReST wiele opcji tworzenia tabel
 
-
 Prosta Tabla
 ------------
 
@@ -56,7 +55,7 @@ True   True   True
 =====  =====  =======
 
 Grid Tabela
-----------
+-----------
 
 .. _tbl-grid:
 
@@ -82,21 +81,18 @@ https://www.generic-mapping-tools.org
 Wewnętrzne Linki
 --------------
 
-Link to the a module with :doc:`/plot` or :doc:`/plot`.
+Link do modułu: :doc:`/plot`.
 
-Link to a section title with `Lists`_.
+Link do tytułu sekcji `Lists`_.
 
-Link to a target with :ref:`Link to a table <tbl-grid>`.
+Link do znacznika (targetu) za pomocą :ref:`Link do tabeli <tbl-grid>`.
 
-Link to a GMT parameter :term:`FONT_TITLE`.
-
-
-
+Link do parametru GMT :term:`FONT_TITLE`.
 
 Kody
 #####
 
-::
+:: code-block:: bash
 
     gmt begin map
     gmt basemap -R0/10/0/10 -JX10c/10c -Baf
@@ -115,9 +111,8 @@ Notatki Informacyjne
 Zdjęcie
 #######
 
-Uzywamy `figure`` directive to include images:
-
 .. figure:: https://about.readthedocs.com/images/logo-opengraph.png
    :width: 90%
+   :alt: Read The Docs - logo
 
-   Figure caption
+   Zdjęcie read the docs logo
