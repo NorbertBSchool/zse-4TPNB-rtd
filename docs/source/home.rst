@@ -1,4 +1,12 @@
 Strona Główna
 =============
 
-Wprowadzenie...
+Spis treści
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   home
+   rtd
+   contact
